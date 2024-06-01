@@ -1,0 +1,112 @@
+/* General Modal Styles */
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-popup .box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.img-area {
+  flex: 1;
+  background: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.img-area img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.img-area .site-title-tagline {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-area p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
+
+.form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9"/></svg>')
+    no-repeat right 10px center;
+  background-size: 10px 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #d81b60;
+}
